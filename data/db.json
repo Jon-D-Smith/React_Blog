@@ -1,0 +1,9 @@
+{
+    "blogs" : [
+        
+        {"title": "My new website!", "body": "lorem ipsum text...", "author": "Jon", "id": 1 },
+        {"title": "My second dummy post!", "body": "lorem ipsum text...", "author": "Reagann", "id": 2 },
+        {"title": "Feed me", "body": "lorem ipsum text...", "author": "BlueBelle", "id": 3 }
+      
+        ]
+}
