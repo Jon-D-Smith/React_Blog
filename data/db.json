@@ -1,9 +1,28 @@
 {
-    "blogs" : [
-        
-        {"title": "My new website!", "body": "lorem ipsum text...", "author": "Jon", "id": 1 },
-        {"title": "My second dummy post!", "body": "lorem ipsum text...", "author": "Reagann", "id": 2 },
-        {"title": "Feed me", "body": "lorem ipsum text...", "author": "BlueBelle", "id": 3 }
-      
-        ]
+  "blogs": [
+    {
+      "title": "My new website!",
+      "body": "lorem ipsum text...",
+      "author": "Jon",
+      "id": 1
+    },
+    {
+      "title": "My second dummy post!",
+      "body": "lorem ipsum text...",
+      "author": "Reagann",
+      "id": 2
+    },
+    {
+      "title": "Feed me",
+      "body": "lorem ipsum text...",
+      "author": "BlueBelle",
+      "id": 3
+    },
+    {
+      "title": "Test Blog",
+      "body": "This right here is another test blog, but this one is coming from the create form!",
+      "author": "mario",
+      "id": 4
+    }
+  ]
 }
