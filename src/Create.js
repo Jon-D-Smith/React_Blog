@@ -1,11 +1,13 @@
 import { useState } from "react";
+import {useHistory} from 'react-router-dom';
 
 const Create = () => {
 
     const [title, setTitle] = useState('');
     const [body, setBody] = useState('');
     const [author, setAuthor] = useState('mario');
-    const [isPending, setIsPending] = useState(false)
+    const [isPending, setIsPending] = useState(false);
+    const history = useHistory();
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -22,7 +24,9 @@ const Create = () => {
             setBody('')
             setAuthor('mario')
             setIsPending(false)
+            history.push('/');
         })
+        
     }
 
     return ( <div className="create">

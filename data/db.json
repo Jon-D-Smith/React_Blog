@@ -23,6 +23,12 @@
       "body": "This right here is another test blog, but this one is coming from the create form!",
       "author": "mario",
       "id": 4
+    },
+    {
+      "title": "History Test",
+      "body": "Testing the useHistory hook.",
+      "author": "yoshi",
+      "id": 5
     }
   ]
 }
